@@ -1,8 +1,8 @@
-[![Build Status](https://circleci.com/gh/segmentio/integration-outbound.png)](https://circleci.com/gh/segmentio/integration-outbound)
+[![Build Status](https://circleci.com/gh/segmentio/integration-outbound/tree/master.png?style=badge)](https://circleci.com/gh/segmentio/integration-outbound/tree/master)
 
-# Outbound server-side integration.
+# integration-outbound
 
-Write me...
+Outbound server-side integration for Segment.
 
 
 ## License
