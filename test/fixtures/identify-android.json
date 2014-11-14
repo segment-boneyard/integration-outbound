@@ -1,0 +1,41 @@
+{
+  "input": {
+    "type": "identify",
+    "userId": "user-id",
+    "traits": {
+      "avatar": "https://some.url/avatar.jpg",
+      "country": "some-country",
+      "name": "John Doe",
+      "gender": "male",
+      "email": "jd@example.com",
+      "phone": "55555",
+      "city": "some-city",
+      "age": 3e3
+    },
+    "context": {
+      "device": {
+        "token": "asdfasdf"
+      },
+      "library": {
+        "name": "analytics-android",
+        "version": "0.6.2"
+      }
+    }
+  },
+  "output": {
+    "user_id": "user-id",
+    "attributes": {
+      "avatar": "https://some.url/avatar.jpg",
+      "country": "some-country",
+      "name": "John Doe",
+      "gender": "male",
+      "city": "some-city",
+      "age": 3e3
+    },
+    "email": "jd@example.com",
+    "phone_number": "55555",
+    "first_name": "John",
+    "last_name": "Doe",
+    "gcm": ["asdfasdf"]
+  }
+}
