@@ -73,7 +73,7 @@ describe('Outbound', function(){
       });
 
       it('should map test for ios token ', function(){
-        test.maps('identify-xogrp');
+        test.maps('identify-production');
       });
     });
 

@@ -14,7 +14,7 @@
     },
     "context": {
       "device": {
-        "token": "asdfasdf"
+        "token": "ff15bc0c20c4aa6cd50854ff165fd265c838e5405bfeb9571066395b8c9da449"
       },
       "library": {
         "name": "analytics-ios",
@@ -36,6 +36,6 @@
     "phone_number": "55555",
     "first_name": "John",
     "last_name": "Doe",
-    "apns": ["asdfasdf"]
+    "apns": ["ff15bc0c20c4aa6cd50854ff165fd265c838e5405bfeb9571066395b8c9da449"]
   }
 }
