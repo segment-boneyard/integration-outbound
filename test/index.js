@@ -71,6 +71,10 @@ describe('Outbound', function(){
       it('should map test for ios token ', function(){
         test.maps('identify-ios');
       });
+
+      it('should map test for ios token ', function(){
+        test.maps('identify-xogrp');
+      });
     });
 
   });

@@ -1,0 +1,90 @@
+{
+  "input": {
+    "type": "identify",
+    "anonymousId": "6EDEEA8D-0D41-45EE-9C83-1CDB6A8872A0",
+    "userId": "1e03bd84-a348-4677-bfc7-6ef6b9594105",
+    "integrations": {
+      "Tapstream": false,
+      "Bugsnag": false,
+      "Amplitude": false,
+      "Localytics": false,
+      "TestFlight": false,
+      "Optimizely": false,
+      "Mixpanel": false,
+      "AppsFlyer": false,
+      "Taplytics": false,
+      "Flurry": false,
+      "Quantcast": false,
+      "Google Analytics": false,
+      "Countly": false,
+      "Crittercism": false
+    },
+    "messageId": "E192ECC2-93DB-47A4-B250-9B6C2CF542B8",
+    "timestamp": "2014-12-11T18:28:14.000Z",
+    "traits": {
+      "lastName": "Boshweizen",
+      "member_id": "8331191919004518291",
+      "name": "Ashley Boshweizen",
+      "appDetails": "490 (3.0.1.490)",
+      "firstName": "Ashley",
+      "email": "ashley.boshweizen@yahoo.com",
+      "userName": "Knottie07799953",
+      "created": "2014-12-05T14:42:00.879Z",
+      "weddingDate": "2/14/2016",
+      "country": "United States"
+    },
+    "context": {
+      "os": {
+        "name": "iPhone OS",
+        "version": "8.1"
+      },
+      "app": {
+        "build": "3.0.1.490",
+        "name": "Parcel",
+        "version": "490"
+      },
+      "library": {
+        "name": "analytics-ios",
+        "version": "1.8.0"
+      },
+      "network": {
+        "bluetooth": true,
+        "carrier": "Verizon"
+      },
+      "timezone": "America/Detroit",
+      "locale": "en-US",
+      "screen": {
+        "width": 320,
+        "height": 568
+      },
+      "traits": {},
+      "device": {
+        "adTrackingEnabled": true,
+        "manufacturer": "Apple",
+        "idfv": "9BF00953-6118-45FF-9740-34DD3FFCD7E8",
+        "model": "iPhone7,1",
+        "token": "ff15bc0c20c4aa6cd50835ff165fd265c838e5405bfeb9571066395b8c9da449",
+        "type": "ios"
+      },
+      "ip": "74.204.24.218"
+    },
+    "writeKey": "h6ymjo97opjmdgd1vxo0",
+    "receivedAt": "2014-12-11T18:28:38.404Z"
+  },
+  "output": {
+    "user_id": "1e03bd84-a348-4677-bfc7-6ef6b9594105",
+    "attributes": {
+      "member_id": "8331191919004518291",
+      "name": "Ashley Boshweizen",
+      "appDetails": "490 (3.0.1.490)",
+      "userName": "Knottie07799953",
+      "created": "2014-12-05T14:42:00.879Z",
+      "weddingDate": "2/14/2016",
+      "country": "United States"
+    },
+    "email": "ashley.boshweizen@yahoo.com",
+    "first_name": "Ashley",
+    "last_name": "Boshweizen",
+    "apns": ["ff15bc0c20c4aa6cd50835ff165fd265c838e5405bfeb9571066395b8c9da449"]
+  }
+}
