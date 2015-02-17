@@ -77,6 +77,13 @@ describe('Outbound', function(){
       });
     });
 
+    describe('group', function(){
+      it('should map basic group', function(){
+        test.maps('group-basic');
+      });
+    });
+
+
   });
 
   describe('.track()', function(){
@@ -127,6 +134,25 @@ describe('Outbound', function(){
         .track({ event: 'event' })
         .identify({})
         .error('cannot POST /v2/identify (401)', done);
+    });
+  });
+
+  describe('.group()', function(){
+
+    it('should group successfully', function(done){
+      var json = test.fixture('group-basic');
+      test
+      .group(json.input)
+      .sends(json.output)
+      .expects(200, done);
+    });
+
+    it('should error on invalid request', function(done){
+      test
+      .set({ apiKey: 'x' })
+      .track({ event: 'event' })
+      .group({})
+      .error('cannot POST /v2/identify (401)', done);
     });
   });
 });
