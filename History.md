@@ -1,4 +1,13 @@
 
+1.1.0 / 2015-02-19
+==================
+
+  * Change API key to dedicated testing account
+  * Remove v1 API support
+  * Update circle template
+  * Fix production naming
+  * Add another test
+
 1.0.5 / 2014-12-08
 ==================
 
