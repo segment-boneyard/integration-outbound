@@ -8,7 +8,7 @@ describe('Outbound', function(){
   var test;
 
   beforeEach(function(){
-    settings = { apiKey: '950a9fc29b1d65815f4aec077944600a' };
+    settings = { apiKey: '11dd737337d61bded96493074508ce8b' };
     outbound = new Outbound(settings);
     test = Test(outbound, __dirname);
   });
