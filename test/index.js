@@ -45,9 +45,7 @@ describe('Outbound', function(){
     });
   });
 
-
   describe('mapper', function(){
-
     describe('track', function(){
       it('should map basic track', function(){
         test.maps('track-basic');
@@ -78,6 +76,11 @@ describe('Outbound', function(){
       });
     });
 
+    describe('alias', function(){
+      it('should map basic alias', function(){
+        test.maps('alias-basic');
+      });
+    });
 
   });
 
@@ -137,17 +140,35 @@ describe('Outbound', function(){
     it('should group successfully', function(done){
       var json = test.fixture('group-basic');
       test
-      .group(json.input)
-      .sends(json.output)
-      .expects(200, done);
+        .group(json.input)
+        .sends(json.output)
+        .expects(200, done);
     });
 
     it('should error on invalid request', function(done){
       test
-      .set({ apiKey: 'x' })
-      .track({ event: 'event' })
-      .group({})
-      .error('cannot POST /v2/identify (401)', done);
+        .set({ apiKey: 'x' })
+        .track({ event: 'event' })
+        .group({})
+        .error('cannot POST /v2/identify (401)', done);
+    });
+  });
+
+  describe('.alias()', function(){
+    it('should alias successfully', function(done){
+      var json = test.fixture('alias-basic');
+      test
+        .alias(json.input)
+        .sends(json.output)
+        .expects(200, done);
+    });
+
+    it('should error on invalid request', function(done){
+      test
+        .set({ apiKey: 'x' })
+        .track({ event: 'event' })
+        .alias({})
+        .error('cannot POST /v2/identify (401)', done);
     });
   });
 });
