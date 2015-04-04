@@ -2,6 +2,7 @@
   "input": {
     "type": "group",
     "userId": "user-id",
+    "groupId": "group-id",
     "timestamp": "2014",
     "traits": {
       "name": "ballers",
@@ -10,11 +11,10 @@
   },
   "output": {
     "user_id": "user-id",
-    "attributes": {
-      "group": {
-        "name": "ballers",
-        "duty": "shot calling"
-      }
+    "group_id": "group-id",
+    "group_attributes": {
+      "name": "ballers",
+      "duty": "shot calling"
     }
   }
 }
