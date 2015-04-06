@@ -1,4 +1,10 @@
 
+1.2.0 / 2015-04-06
+==================
+
+  * Merge pull request #6 from segmentio/pr/5
+  * Add support for alias and group.
+
 1.1.1 / 2015-03-10
 ==================
 
