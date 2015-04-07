@@ -3,7 +3,7 @@
     "type": "track",
     "userId": "user-id",
     "event": "my-event",
-    "timestamp": "2014",
+    "timestamp": "2015-04-06T12:31:32Z",
     "properties": {
       "revenue": 19.99,
       "property": true
@@ -19,6 +19,7 @@
   "output": {
     "user_id": "user-id",
     "event": "my-event",
+    "timestamp": 1428323492,
     "properties": {
       "revenue": 19.99,
       "property": true
