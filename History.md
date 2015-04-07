@@ -1,4 +1,16 @@
 
+1.2.1 / 2015-04-07
+==================
+
+  * Merge pull request #7 from outboundio/master
+  * Pass timestamp in track calls
+
+ / 2015-04-07
+=============
+
+  * Merge pull request #7 from outboundio/master
+  * Pass timestamp in track calls
+
 1.2.0 / 2015-04-06
 ==================
 
