@@ -16,7 +16,7 @@ describe('Outbound', function(){
   it('should have correct settings', function(){
     test
       .name('Outbound')
-      .channels(['server', 'mobile', 'client'])
+      .channels(['server', 'mobile'])
       .endpoint('https://api.outbound.io')
       .ensure('settings.apiKey')
       .ensure('message.userId')
