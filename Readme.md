@@ -1,4 +1,4 @@
-[![Build Status](https://circleci.com/gh/segmentio/integration-outbound/tree/master.png?style=badge)](https://circleci.com/gh/segmentio/integration-outbound/tree/master)
+[![Build Status](https://circleci.com/gh/segmentio/integration-outbound/tree/master.png?style=svg)](https://circleci.com/gh/segmentio/integration-outbound/tree/master)
 
 # integration-outbound
 
