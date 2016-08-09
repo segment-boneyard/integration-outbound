@@ -171,4 +171,22 @@ describe('Outbound', function(){
         .error('cannot POST /v2/identify (401)', done);
     });
   });
+
+  describe('.screen()', function(){
+    it('should map basic screen successfully', function(){
+      test.maps('screen-basic');
+    });
+    it('should map basic screen successfully', function(){
+      test.maps('screen-name');
+    });
+  });
+
+  describe('.page()', function(){
+     it('should map basic page successfully', function(){
+       test.maps('page-basic');
+     });
+     it('should map basic page successfully', function(){
+       test.maps('page-name');
+     });
+  });
 });

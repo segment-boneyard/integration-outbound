@@ -1,0 +1,25 @@
+{
+  "input": {
+    "type": "page",
+    "userId": "user-id",
+    "timestamp": "2016",
+    "properties": {
+      "property": true
+    },
+    "context": {
+      "traits": {
+        "address": {
+          "country": "some-country"
+        }
+      }
+    }
+  },
+  "output": {
+    "event": "[Segment Page]",
+    "properties": {
+      "property": true
+    },
+    "timestamp": 1451606400,
+    "user_id": "user-id"
+  }
+}
