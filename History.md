@@ -1,7 +1,9 @@
 
-1.2.2 / 2015-04-22
+1.3.0 / 2016-08-11
 ==================
 
+  * page screen timezone implementation into OB
+  * add docker, refactor circle
 
 
 1.2.1 / 2015-04-07
