@@ -97,7 +97,7 @@ describe('Outbound', function(){
       test
         .set({ apiKey: 'x' })
         .track({ event: 'event' })
-        .error('cannot POST /v2/track (401)', done);
+        .error('Unauthorized', done);
     });
   });
 
@@ -131,7 +131,7 @@ describe('Outbound', function(){
         .set({ apiKey: 'x' })
         .track({ event: 'event' })
         .identify({})
-        .error('cannot POST /v2/identify (401)', done);
+        .error('Unauthorized', done);
     });
   });
 
@@ -150,7 +150,7 @@ describe('Outbound', function(){
         .set({ apiKey: 'x' })
         .track({ event: 'event' })
         .group({})
-        .error('cannot POST /v2/identify (401)', done);
+        .error('Unauthorized', done);
     });
   });
 
@@ -168,7 +168,7 @@ describe('Outbound', function(){
         .set({ apiKey: 'x' })
         .track({ event: 'event' })
         .alias({})
-        .error('cannot POST /v2/identify (401)', done);
+        .error('Unauthorized', done);
     });
   });
 
