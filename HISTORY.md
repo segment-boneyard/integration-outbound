@@ -1,10 +1,14 @@
 
+1.4.0 / 2016-12-13
+==================
+
+  * Fallback on anonymousId if userId is missing for `.identify()` calls
+
 1.3.0 / 2016-08-11
 ==================
 
   * page screen timezone implementation into OB
   * add docker, refactor circle
-
 
 1.2.1 / 2015-04-07
 ==================

@@ -68,6 +68,10 @@ describe('Outbound', function(){
       it('should map test for ios token ', function(){
         test.maps('identify-production');
       });
+
+      it('should map fallback on anonymousId if no userId ', function(){
+        test.maps('identify-anonymous');
+      });
     });
 
     describe('group', function(){
