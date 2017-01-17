@@ -1,13 +1,11 @@
 machine:
   node:
-    version: 0.10.38
+    version: 6.9.2
   services:
     - docker
     - redis
-
-dependencies:
-  pre:
-   - npm -g install npm@2
+  environment:
+    WORKER_VERSION: 3.x
 
 deployment:
   push:
