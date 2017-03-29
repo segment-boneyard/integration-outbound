@@ -13,7 +13,7 @@ dependencies:
 
 test:
   override:
-    - make test || echo "Skipping test failures"
+    - make test
 
 deployment:
   publish:
